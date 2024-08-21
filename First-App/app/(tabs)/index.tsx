@@ -1,14 +1,20 @@
-import { StyleSheet, View, Text, SafeAreaView } from 'react-native';
+import { StyleSheet, View, Text, SafeAreaView, ScrollView } from 'react-native';
 import FlatCards from '@/components/FlatCards';
 import ElevatedCards from '@/components/ElevatedCards';
+import PopularCity from '@/components/PopularCity';
+import BlogCard from '@/components/BlogCard';
 
 export default function HomeScreen() {
   return (
     <SafeAreaView style={styles.container}>
-      <View>
-        <FlatCards />
-        <ElevatedCards />
-      </View>
+      <ScrollView>
+        <View>
+          <FlatCards />
+          <ElevatedCards />
+          <PopularCity />
+          <BlogCard />
+        </View>
+      </ScrollView>
     </SafeAreaView>
   )
 }
