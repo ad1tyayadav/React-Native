@@ -21,6 +21,3 @@ This is my first React Native app, focusing on creating a clean and user-friendl
 
 - **Blog Section**:
   - Displays blog posts or articles in a structured and readable format.
-
-- **Contact Information**:
-  - Provides essential contact details, ensuring users can easily reach out.
